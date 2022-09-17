@@ -1,0 +1,44 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+#webDesignQuote{
+    font-size: 24px;
+    font-family: 'Satisfy', cursive; 
+}
+
+#aboutUs{
+    width:85%;
+    margin:auto;
+    display:block;
+    border-radius: 5px;
+    background-color: rgb(187, 186, 186);
+}
+
+#usPhotos {
+    width: 40%;
+}
+
+#usPhotos img{
+    height: 25;
+    width:auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #usPhotos{
+        width:100%;
+    }
+
+    #usPhotos img{
+        width:100%;
+        height: auto;
+    }
+  }

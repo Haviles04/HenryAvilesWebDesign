@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviles Web Design</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- bootstrap navbar section -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> If you build it, they will come. </span>
+        </div>
+      </div>
+    </nav>
+
+    <!--bootstrap carousel-->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 mx-auto">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/code.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Aviles Web Design</h5>
+                <p>Helping your with all your web needs</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/comp.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/passion.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--Quote section-->
+
+    <div id="webDesignQuote" class="row">
+      <div class="col-xl-4 mx-auto my-5">
+        <p>
+          “Your website is the center of your digital eco-system, like a brick
+          and mortar location, the experience matters once a customer enters,
+          just as much as the perception they have of you before they walk
+          through the door.” ― Leland Dieno
+        </p>
+      </div>
+    </div>
+
+    <!--about us-->
+
+    <div id="aboutUs" class="row">
+      <div class="col-xl-4 mx-auto my-5" ;>
+        <h2>About us</h2>
+        <p>
+          Aviles web design is a fake company, the company was made for the
+          purpose of creating a website to show the skills of the still learning
+          developer Henry Aviles, based out of Long Island, New york. Henry is
+          currently an ironworker for Ironworkers local 40. He has worked on
+          many big projects in NYC such as, the brooklyn bride, manhattan bride,
+          the Disney building, and the Tiffany and Co Flagship building"
+        </p>
+      </div>
+      <div id="usPhotos" class="container">
+        <div class="row">
+            <div class="col-lg-6 ">
+                <div class="card">
+                    <img class="card-img-top" src="./images/henry.jpg" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Henry Aviles</h5>
+                        <p class="card-text">
+                            Henry Aviles, Lead developer
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/moose.jpg" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Moose</h5>
+                        <p class="card-text">
+                            Moose Aviles, Lead good boy
+                        </p>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
