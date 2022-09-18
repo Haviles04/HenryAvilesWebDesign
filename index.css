@@ -2,7 +2,7 @@ body, html{
     min-height: 100%;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 
 .navbar img{
@@ -10,28 +10,53 @@ body, html{
     width: 50px;
 }
 
+.carousel-inner img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
 #webDesignQuote{
+    padding:1rem;
     font-size: 24px;
     font-family: 'Satisfy', cursive; 
 }
 
 #aboutUs{
+    width: 85%;
     padding-top:1rem;
+    padding-bottom: 4rem;
     margin:auto;
     display:block;
-    border-radius: 5px;
+    border-radius: 25px;
     background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 
-#usPhotos {
-    width: 40%;
+#designed {
+        width: 85%;
+        padding-top:1rem;
+        padding-bottom: 4rem;
+        margin:auto;
+        display:block;
 }
 
-#usPhotos img{
-    height: 25;
-    width:auto;
-
+#designed img{
+    margin: 0 auto;
+    height: 150px;
+    width: auto;
 }
+
+#designed h2{
+    margin-bottom:2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+}
+
+.card img {
+    height: 25rem;
+    width: auto;
+    object-fit: cover;
+}
+
 
 @media only screen and (max-width: 600px) {
     #usPhotos{
@@ -42,4 +67,13 @@ body, html{
         width:100%;
         height: auto;
     }
+
+    .carousel-inner img{
+    height: 100vh;
+    object-fit: contain;
+    }
+
+  .navbar #navQuote{
+    visibility: hidden;
   }
+}
