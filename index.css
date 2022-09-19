@@ -2,7 +2,7 @@ body, html{
     min-height: 100%;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    background: #14213D;
 }
 
 .navbar img{
@@ -20,35 +20,17 @@ body, html{
     padding:1rem;
     font-size: 24px;
     font-family: 'Satisfy', cursive; 
+    color:#FCA311;
 }
 
 #aboutUs{
-    width: 85%;
+    width: 55%;
     padding-top:1rem;
     padding-bottom: 4rem;
     margin:auto;
     display:block;
     border-radius: 25px;
-    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
-#designed {
-        width: 85%;
-        padding-top:1rem;
-        padding-bottom: 4rem;
-        margin:auto;
-        display:block;
-}
-
-#designed img{
-    margin: 0 auto;
-    height: 150px;
-    width: auto;
-}
-
-#designed h2{
-    margin-bottom:2rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+    background: #E5E5E5;
 }
 
 .card img {
